@@ -3,8 +3,8 @@
 # */AIPND-revision/intropyproject-classify-pet-images/calculates_results_stats.py
 #                                                                             
 # PROGRAMMER: Lakshmi Banka
-# DATE CREATED:  10-07-2024                                
-# REVISED DATE: 10-12-2025
+# DATE CREATED:  11/07/2024                                
+# REVISED DATE: 11/12/2024
 # PURPOSE: Create a function calculates_results_stats that calculates the 
 #          statistics of the results of the programrun using the classifier's model 
 #          architecture to classify the images. This function will use the 
