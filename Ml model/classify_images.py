@@ -2,9 +2,9 @@
 # -*- coding: utf-8 -*-
 # */AIPND-revision/intropyproject-classify-pet-images/classify_images.py
 #                                                                             
-# PROGRAMMER: 
-# DATE CREATED:                                 
-# REVISED DATE: 
+# PROGRAMMER: Lakshmi Banka
+# DATE CREATED:  10-11-2024                              
+# REVISED DATE: 09-02-2025
 # PURPOSE: Create a function classify_images that uses the classifier function 
 #          to create the classifier labels and then compares the classifier 
 #          labels to the pet image labels. This function inputs:
@@ -15,7 +15,7 @@
 #            -The CNN model architecture as model wihtin classify_images function
 #             and in_arg.arch for the function call within main. 
 #           This function uses the extend function to add items to the list 
-#           that's the 'value' of the results dictionary. You will be adding the
+#           that's the 'value' of the results dictionary. we will be adding the
 #           classifier label as the item at index 1 of the list and the comparison 
 #           of the pet and classifier labels as the item at index 2 of the list.
 #
@@ -23,7 +23,7 @@
 # Imports classifier function for using CNN to classify images 
 from classifier import classifier 
 
-# TODO 3: Define classify_images function below, specifically replace the None
+#       Define classify_images function below, specifically replace the None
 #       below by the function definition of the classify_images function. 
 #       Notice that this function doesn't return anything because the 
 #       results_dic dictionary that is passed into the function is a mutable 
@@ -33,8 +33,8 @@ def classify_images(images_dir, results_dic, model):
     """
     Creates classifier labels with classifier function, compares pet labels to 
     the classifier labels, and adds the classifier label and the comparison of 
-    the labels to the results dictionary using the extend function. Be sure to
-    format the classifier labels so that they will match your pet image labels.
+    the labels to the results dictionary using the extend function.
+    Format the classifier labels so that they will match your pet image labels.
     The format will include putting the classifier labels in all lower case 
     letters and strip the leading and trailing whitespace characters from them.
     For example, the Classifier function returns = 'Maltese dog, Maltese terrier, Maltese' 
