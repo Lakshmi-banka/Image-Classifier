@@ -2,9 +2,9 @@
 # -*- coding: utf-8 -*-
 # */AIPND-revision/intropyproject-classify-pet-images/adjust_results4_isadog.py
 #                                                                             
-# PROGRAMMER: 
-# DATE CREATED:                                 
-# REVISED DATE: 
+# PROGRAMMER: Lakshmi Banka
+# DATE CREATED:  10/11/2024                             
+# REVISED DATE:  09/02/2025
 # PURPOSE: Create a function adjust_results4_isadog that adjusts the results 
 #          dictionary to indicate whether or not the pet image label is of-a-dog, 
 #          and to indicate whether or not the classifier image label is of-a-dog.
@@ -23,20 +23,13 @@
 #            -The text file with dog names as dogfile within adjust_results4_isadog
 #             function and in_arg.dogfile for the function call within main. 
 #           This function uses the extend function to add items to the list 
-#           that's the 'value' of the results dictionary. You will be adding the
+#           that's the 'value' of the results dictionary. we will be adding the
 #           whether or not the pet image label is of-a-dog as the item at index
 #           3 of the list and whether or not the classifier label is of-a-dog as
 #           the item at index 4 of the list. Note we recommend setting the values
 #           at indices 3 & 4 to 1 when the label is of-a-dog and to 0 when the 
 #           label isn't a dog.
 #
-##
-# TODO 4: Define adjust_results4_isadog function below, specifically replace the None
-#       below by the function definition of the adjust_results4_isadog function. 
-#       Notice that this function doesn't return anything because the 
-#       results_dic dictionary that is passed into the function is a mutable 
-#       data type so no return is needed.
-# 
 def adjust_results4_isadog(results_dic, dogfile):
     """
     Adjusts the results dictionary to determine if classifier correctly 
