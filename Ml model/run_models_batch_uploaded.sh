@@ -2,8 +2,8 @@
 # */AIPND-revision/intropyproject-classify-pet-images/run_models_batch_uploaded.sh
 #                                                                             
 # PROGRAMMER: Lakshmi Banka
-# DATE CREATED: 10-11-2024                                  
-# REVISED DATE: 10-12-2024
+# DATE CREATED: 11-11-2024                                  
+# REVISED DATE: 11-12-2024
 # PURPOSE: Runs all three models to test which provides 'best' solution on the Uploaded Images.
 #          Please note output from each run has been piped into a text file.
 #
