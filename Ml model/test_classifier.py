@@ -2,9 +2,9 @@
 # -*- coding: utf-8 -*-
 # */AIPND/intropylab-classifying-images/test_classifier.py
 #                                                                             
-# PROGRAMMER: Jennifer S.                                                    
-# DATE CREATED: 01/30/2018                                  
-# REVISED DATE:             <=(Date Revised - if any)                         
+# PROGRAMMER: Lakshmi Banka                                                    
+# DATE CREATED: 10-11-2024                                  
+# REVISED DATE:  10-12-2024                         
 # PURPOSE: To demonstrate the proper usage of the classifier() function that 
 #          is defined in classifier.py This function uses CNN model 
 #          architecture that has been pretrained on the ImageNet data to 
