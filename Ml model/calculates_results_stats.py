@@ -2,9 +2,9 @@
 # -*- coding: utf-8 -*-
 # */AIPND-revision/intropyproject-classify-pet-images/calculates_results_stats.py
 #                                                                             
-# PROGRAMMER:
-# DATE CREATED:                                  
-# REVISED DATE: 
+# PROGRAMMER: Lakshmi Banka
+# DATE CREATED:  10-11-2024                                
+# REVISED DATE: 09-02-2025
 # PURPOSE: Create a function calculates_results_stats that calculates the 
 #          statistics of the results of the programrun using the classifier's model 
 #          architecture to classify the images. This function will use the 
@@ -13,9 +13,7 @@
 #          (results_stats_dic) that's created and returned by this function.
 #          This will allow the user of the program to determine the 'best' 
 #          model for classifying the images. The statistics that are calculated
-#          will be counts and percentages. Please see "Intro to Python - Project
-#          classifying Images - xx Calculating Results" for details on the 
-#          how to calculate the counts and percentages for this function.    
+#          will be counts and percentages.     
 #         This function inputs:
 #            -The results dictionary as results_dic within calculates_results_stats 
 #             function and results for the function call within main.
@@ -38,10 +36,7 @@
 #            pct_correct_notdogs - percentage of correctly classified NON-dogs
 #
 ##
-# TODO 5: Define calculates_results_stats function below, please be certain to replace None
-#       in the return statement with the results_stats_dic dictionary that you create 
-#       with this function
-# 
+
 def calculates_results_stats(results_dic):
     """
     Calculates statistics of the results of the program run using classifier's model 
@@ -68,7 +63,7 @@ def calculates_results_stats(results_dic):
                      and the previous topic Calculating Results in the class for details
                      on how to calculate the counts and statistics.
     """        
-    # Replace None with the results_stats_dic dictionary that you created with 
+    # Replace None with the results_stats_dic dictionary that is created with 
     # this function
     results_stats_dic = dict()
     
