@@ -3,8 +3,8 @@
 # */AIPND-revision/intropyproject-classify-pet-images/get_input_args.py
 #                                                                             
 # PROGRAMMER: Lakshmi Banka
-# DATE CREATED: 10-11-2024                                
-# REVISED DATE: 09-02-2025
+# DATE CREATED: 10-09-2024                                
+# REVISED DATE: 10-12-2025
 # PURPOSE: Create a function that retrieves the following 3 command line inputs 
 #          from the user using the Argparse Python module. If the user fails to 
 #          provide some or all of the 3 inputs, then the default values are
